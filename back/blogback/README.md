@@ -37,12 +37,29 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+Run the database migrations:
+
+```bash
+php artisan migrate
+```
+
 Start the local development server and Vite dev server:
 
 ```bash
 php artisan serve
 npm run dev
 ```
+
+To build the frontend for production:
+
+```bash
+npm run build
+```
+
+## Available NPM Scripts
+
+- `npm run dev` - Start Vite development server
+- `npm run build` - Build frontend for production
 
 ## Learning Laravel
 
